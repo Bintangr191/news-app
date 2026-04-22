@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# 📰 Adaptive News Portal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Tugas Mobile Programming — Aplikasi berita responsif menggunakan React Native & Expo Router.
 
-## Get started
+## ✨ Fitur
+- Tampilan adaptif: 2 kolom di web, horizontal di tablet, vertikal di mobile
+- 5 berita dengan konten lengkap
+- Navigasi ke halaman detail dengan passing data
+- Badge kategori berwarna
+
+## 📱 Screenshot Mobile (Expo Go)
+
+### Beranda
+<img width="756" height="1600" alt="WhatsApp Image 2026-04-22 at 17 59 59" src="https://github.com/user-attachments/assets/4d719228-92db-43f2-839c-62c8a12b9553" />
+
+
+### Detail Berita
+<img width="755" height="1600" alt="WhatsApp Image 2026-04-22 at 17 59 55" src="https://github.com/user-attachments/assets/3bc6e3b0-97c5-4d32-b033-b524b22dd87d" />
+
+
+## 🌐 Screenshot Web
+
+### Beranda
+<img width="1301" height="675" alt="Screenshot 2026-04-22 181517" src="https://github.com/user-attachments/assets/b2163be5-2576-45c9-8334-8fa5d8edd6c2" />
+
+
+### Detail Berita
+<img width="1301" height="686" alt="Screenshot 2026-04-22 181547" src="https://github.com/user-attachments/assets/0b130843-f420-4dc5-95fa-d2ff5d656615" />
+
+## 🚀 Cara Jalankan
 
 1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
 ```bash
-npm run reset-project
+   npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Jalankan app
+```bash
+   npx expo start
+```
 
-## Learn more
+3. Buka di browser
+```bash
+   npx expo start --web
+```
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🛠 Teknologi
+- React Native
+- Expo Router
+- TypeScript
